@@ -1,0 +1,29 @@
+/* 
+    Created on : 14 Jan, 2016, 7:34:36 PM
+    Author     : IZZY
+    File       : Clear Career Website Custom CSS
+*/
+
+h1 {
+    text-shadow: 2px 2px 10px rgba(45,45,45,0.2);
+}
+
+.header-v2 .navbar-brand {
+    color: rgba(255,255,255,0.9);
+}
+
+.footer {
+  padding-top: 0px;
+}
+
+/* Transparent Navbar
+=============================== */
+.header-v2 {
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: rgba(0,0,0,0); 
+}
+.navbar-default {
+     background-color:rgba(0,0,0,0); ; 
+     border-color: rgba(0,0,0,0); ; 
+}

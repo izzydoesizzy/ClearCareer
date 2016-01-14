@@ -30,7 +30,7 @@
     </head>
     <body data-spy="scroll">
         <!-- Static navbar -->
-        <header class="navbar navbar-default header-v2 navbar-fixed-top">
+        <nav class="navbar header-v1 header-transparent navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header scroll-to">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -47,44 +47,35 @@
                         <li class="active"><a href="#home">home</a></li>
                         <li><a href="#features">features</a></li> 
                         <li><a href="#pricing">pricing</a></li> 
-                        <li><a href="#contact">Contact </a></li>
+                        <li><a href="#newsletter">Subscribe </a></li>
 
 
                     </ul>
-                    <ul class="nav navbar-nav navbar-right socials">
-                         <li><a href="#"><i class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <ul class="nav navbar-nav navbar-right"> 
+                        <li class="button-nav"><a href="https://wrapbootstrap.com/theme/assan-multi-purpose-8-themes-in-1-WB05F069P" target="_blank">Download </a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
-        </header><!--navigation end here-->
-        
-        
-        <section id="home" class="home-newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 text-center">
-                        <div class="newsletter-home-text">
-                             <h2>Start 30 day free trail</h2>
-                        <p>Subscribe to our newsletter today!</p>
-                        <form role="form" method="post" action="#" class="subscribe-form  assan-newsletter">
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="email" placeholder="Enter email to subscribe">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-skin btn-radius btn-lg" name="submit" type="submit">Notify me</button>
-                                </span>
+        </nav><!--navigation end here-->
+
+        <section id="home" class="banner-intro banner-slider">
+            <div class="banner-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8  col-sm-offset-2 text-center wow animated bounceIn">
+                            <h1>Multipurpose landing page</h1>
+                            <p class="lead">
+                                A Beautiful and simplest way to build your next landing page.
+                            </p>
+                            <div class="scroll-to banner-buttons">
+                                <a href="#features" class="btn btn-lg btn-skin btn-radius">Learn more<i class="fa fa-angle-down"></i></a>
+                                <a  data-toggle="modal" data-target="#video-popup" class="btn btn-lg btn-radius btn-white">Watch video<i class="fa fa-youtube-play"></i></a>
                             </div>
-                        </form>
-                        <div class="space-20"></div>
-                        <a  data-toggle="modal" data-target="#video-popup" class="btn btn-lg btn-radius btn-white">Watch video<i class="fa fa-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-     
         <!--modal of video-->
         <!-- Modal -->
         <div class="modal video-modal fade" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popup">
@@ -298,7 +289,6 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere veritatis inventore eum, cupiditate esse debitis consectetur nisi harum. Tempore, assumenda ducimus vero totam labore. Ipsam, eos odit eaque, voluptatum minima, odio eveniet soluta saepe, culpa quo enim omnis iusto. Possimus, at numquam beatae non atque?
                         </p>
-                        <a href="#" class="btn btn-radius btn-dark btn-lg">Learn more</a>
                     </div>
                     <div class="col-md-6 img-right hidden-xs hidden-sm">
                         
@@ -547,46 +537,25 @@
         </div>
 
         <!--subscribe-->
-        <section id="contact" class="contact-section">
+        <section id="newsletter" class="newsletter-section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 center-title">
                         <i class="icon-envelope"></i>
-                        <h2>Get in touch!</h2>
-                        <p>Feel free to ask any questions.</p>                                     
+                        <h2>Start your free 30 days trail!</h2>
+                        <p>No credit card required. Upgrade, downgrade, or cancel anytime.</p>                                     
                     </div>
                 </div><!--center title row end--> 
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-    <form method="post" action="#" class="assan-contact">
-                            <div class="row">
-                                <div class="col-sm-6"> 
-                                    <div class="row">
-                                        <div class="col-sm-12 margin-b-20">
-                                            <input type="text" name="name" class="form-control" placeholder="Full Name...." />
-                                        </div>
-                                        <div class="col-sm-12 margin-b-20">
-                                            <input type="text" name="email" class="form-control" placeholder="Email Address...." />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <textarea name="message" class="form-control margin-b-20" rows="5" placeholder="Message...."></textarea>                                  
-                                </div>
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <form role="form" method="post" action="#" class="subscribe-form  assan-newsletter">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="email" placeholder="Enter email to subscribe">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-lg btn-skin btn-radius" name="submit" type="submit">Notify me</button>
+                                </span>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6 col-sm-offset-3 text-center">
-                                    <div class="data-status animated fadeInDown"></div> <!-- data submit status -->
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12 text-center">
-                                    <button type="submit" name="submit" class="btn btn-lg btn-skin btn-radius margin-b-20">Send Message</button>
-                                </div>
-                            </div>
-
                         </form>
-
 
                     </div>
                 </div>
@@ -664,19 +633,8 @@
           <script src="js/modernizr.custom.97074.js" type="text/javascript"></script>
          <script src="js/parallax.min.js" type="text/javascript"></script>
         <script src="js/custom.js" type="text/javascript"></script>
-                <!-- Vimeo video API -->
+        <!-- Vimeo video API -->
         <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
         <script type="text/javascript" src="js/vimeo.js"></script> 
-          <script src="contact_form/contact.js"></script>
-        <!-- Vimeo video API -->
-      <script src="js/headroom.js" type="text/javascript"></script>
-      <script>
-          // grab an element
-var myElement = document.querySelector("header");
-// construct an instance of Headroom, passing the element
-var headroom  = new Headroom(myElement);
-// initialise
-headroom.init(); 
-      </script>
     </body>
 </html>
