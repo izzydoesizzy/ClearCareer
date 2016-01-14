@@ -8,7 +8,7 @@ $apikey			= '7be52571dfc80a21d55be2a67e3f428a-us6'; // YOUR MAILCHIMP APIKEY
 $listId			= '53b3044faf'; // YOUR MAILCHIMP LIST ID - see lists() method
     
 // A Campaign Id to run examples against. use campaigns() to view all
-$campaignId		= 'HomepageSubscribe'; // YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method
+$campaignId		= ''; // YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method
 
 // just used in xml-rpc examples
 $apiUrl			= 'http://api.mailchimp.com/1.3/';
