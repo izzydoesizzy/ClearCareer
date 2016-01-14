@@ -56,12 +56,12 @@ a {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
-  color: #f56363;
+  color: #3498db;
 }
 a:hover, a:focus {
   text-decoration: none;
   outline: 0 !important;
-  color: #f56363;
+  color: #3498db;
 }
 
 button {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr.separator {
-  border-top: 1px solid #f56363;
+  border-top: 1px solid #3498db;
   margin: 10px auto;
   width: 80px;
 }
@@ -149,7 +149,7 @@ hr.separator {
   font-family: "Arimo", sans-serif;
 }
 .center-title i {
-  color: #f56363;
+  color: #3498db;
   font-size: 30px;
   margin-bottom: 20px;
   display: block;
@@ -182,7 +182,7 @@ hr.separator {
 }
 
 .btn-skin {
-  background-color: #f56363;
+  background-color: #3498db;
   color: #fff;
 }
 .btn-skin:hover, .btn-skin:focus {
@@ -196,7 +196,7 @@ hr.separator {
 }
 .btn-dark:hover, .btn-dark:focus {
   color: #fff;
-  background-color: #f56363;
+  background-color: #3498db;
 }
 
 .btn-default {
@@ -265,7 +265,7 @@ hr.separator {
   font-family: "Arimo", sans-serif;
 }
 .header-v1 .navbar-nav > li > a:hover {
-  color: #f56363;
+  color: #3498db;
 }
 
 .header-v1.sticky .navbar-nav > li > a {
@@ -278,12 +278,12 @@ hr.separator {
 }
 
 .header-v1 .navbar-nav > .active > a, .header-v1 .navbar-nav > .active > a:focus, .header-v1 .navbar-nav > .active > a:hover {
-  color: #f56363;
+  color: #3498db;
   background-color: transparent;
 }
 
 .header-v1.sticky .navbar-nav > .active > a, .header-v1.sticky .navbar-nav > .active > a:focus, .header-v1.sticky .navbar-nav > .active > a:hover {
-  color: #f56363;
+  color: #3498db;
   background-color: transparent;
 }
 
@@ -314,7 +314,7 @@ hr.separator {
   }
 
   .navbar-right li.button-nav a {
-    background-color: #f56363;
+    background-color: #3498db;
     color: #fff;
     padding: 8px 15px;
     margin-top: 12px;
@@ -341,7 +341,7 @@ hr.separator {
   background-color: #fff;
 }
 .header-v2 .navbar-brand {
-  color: #f56363;
+  color: #3498db;
   font-size: 30px;
   line-height: 25px;
   font-weight: 700;
@@ -356,7 +356,7 @@ hr.separator {
   font-size: 30px;
 }
 .header-v2 .socials li a:hover {
-  color: #f56363;
+  color: #3498db;
 }
 
 .header-v2 .navbar-nav > li > a {
@@ -367,7 +367,7 @@ hr.separator {
 }
 
 .header-v2 .navbar-nav > .active > a, .header-v2 .navbar-nav > .active > a:focus, .header-v2 .navbar-nav > .active > a:hover {
-  color: #f56363;
+  color: #3498db;
   background-color: transparent;
 }
 
@@ -447,7 +447,7 @@ hr.separator {
   margin-top: 25px;
 }
 .price-box .price {
-  color: #f56363;
+  color: #3498db;
   font-size: 70px;
   line-height: 70px;
   font-weight: 900;
@@ -466,7 +466,7 @@ hr.separator {
   margin-bottom: 30px;
 }
 .price-box:hover {
-  background-color: #f56363;
+  background-color: #3498db;
 }
 .price-box:hover h3 {
   color: #fff;
@@ -531,10 +531,10 @@ hr.separator {
   margin: 10px auto;
 }
 .tabs-navigation li.active a {
-  color: #f56363;
+  color: #3498db;
 }
 .tabs-navigation li.active a span {
-  color: #f56363;
+  color: #3498db;
   background-color: transparent;
 }
 
@@ -585,7 +585,7 @@ hr.separator {
   font-size: 30px;
 }
 .footer ul.list-inline li:hover i {
-  color: #f56363;
+  color: #3498db;
 }
 .footer .footer-bottom {
   padding-top: 40px;
@@ -598,7 +598,7 @@ hr.separator {
   text-transform: uppercase;
 }
 .footer .footer-bottom .list-inline li a:hover {
-  color: #f56363;
+  color: #3498db;
 }
 
 .banner-intro {
@@ -780,7 +780,7 @@ hr.separator {
 }
 .aside-feature-row ul li i {
   margin-right: 10px;
-  color: #f56363;
+  color: #3498db;
 }
 
 /**video section **/
@@ -849,7 +849,7 @@ hr.separator {
   display: block;
 }
 .testi-box h4 {
-  color: #f56363;
+  color: #3498db;
   font-size: 15px;
   font-style: italic;
   font-weight: 500;
