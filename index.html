@@ -17,7 +17,8 @@
         <link href="owl-carousel/owl.theme.css" rel="stylesheet">
         <link href="owl-carousel/owl.transitions.css" rel="stylesheet">
         <link href="et-line-icons/style.css" rel="stylesheet">
-        <link href="css/animate.css" rel="stylesheet">        
+        <link href="css/animate.css" rel="stylesheet">     
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">   
         <!--custom css file-->
         <link href="css/style.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
@@ -68,13 +69,24 @@
                         <div class="newsletter-home-text">
                              <h2>Awesome Toronto Jobs<br>straight to your inbox</h2>
                         <p>Job opportunities catered to people who don't have 10,000 years of experience under their belt.</p>
-                        <form role="form" method="post" action="#" class="subscribe-form  assan-newsletter">
+                        <form role="form" method="post" action="//clearcareer.us6.list-manage.com/subscribe/post?u=484f6104223b9e3d9944c2020&amp;id=53b3044faf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="subscribe-form  assan-newsletter">
                             <div class="input-group">
-                                <input type="text" class="form-control" name="email" placeholder="Yes, please send me job opportunities for free">
+                <input type="email" class="form-control required email" name="EMAIL" placeholder="Yes, please send me job opportunities for free" id="mce-EMAIL">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-skin btn-radius btn-lg" name="submit" type="submit">Sign Up</button>
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_484f6104223b9e3d9944c2020_53b3044faf" tabindex="-1" value=""></div>
+                                    <button class="btn btn-skin btn-radius btn-lg" name="submit" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" onclick="swal()">Sign Up</button>
+
                                 </span>
                             </div>
+
+                            <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    
+                            </div>
+
+                            
                         </form>
                         <div class="space-20"></div>
                         <!-- <a  data-toggle="modal" data-target="#video-popup" class="btn btn-lg btn-radius btn-white">Watch video<i class="fa fa-youtube-play"></i></a>
@@ -226,6 +238,7 @@
         <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/smoothscroll.js"></script>
+        <script src="js/sweetalert.min.js"></script> 
         <script src="bower_components/wow/dist/wow.min.js"></script>
         <script src="bower_components/lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
         <script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
@@ -235,7 +248,7 @@
                 <!-- Vimeo video API -->
         <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
         <script type="text/javascript" src="js/vimeo.js"></script> 
-          <script src="contact_form/contact.js"></script>
+        <script src="contact_form/contact.js"></script>
         <!-- Vimeo video API -->
       <script src="js/headroom.js" type="text/javascript"></script>
       <script>
@@ -246,5 +259,14 @@ var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
       </script>
+
+<!--  Animated Confirmation Popup
+      <script>
+      document.querySelector('.mailchimpconfirm a').onclick = function(){
+            swal("Good job!", "You clicked the button!", "success");
+        };
+      </script>
+       -->
+
     </body>
 </html>
