@@ -639,7 +639,7 @@ hr.separator {
 
 /***banner home newsletter****/
 .home-newsletter {
-  background: url(../images/bg-3.jpg) no-repeat;
+  background: url() no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -681,7 +681,7 @@ hr.separator {
 
 /****banner contact form**/
 .home-contact {
-  background: url(../images/bg-2.jpg) no-repeat;
+  background: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
