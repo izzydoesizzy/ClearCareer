@@ -233,7 +233,6 @@ hr.separator {
   padding: 15px 15px;
   font-size: 35px;
   color: #fff;
-  text-transform: lowercase;
   font-weight: 700;
   line-height: 20px;
   -moz-transition: all 0.4s;

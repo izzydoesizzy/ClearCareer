@@ -42,15 +42,6 @@ h1 {
     font-weight:bolder;
   }
 
-
-
-@media (min-width: 992px) {
-.header-v1 .navbar-brand {
-    position: static; 
-    left: 0; 
-    margin-left: none;
-    top: 10px;
-}
 .header-v1 .navbar-brand {
     color: #fff;
 }
@@ -82,6 +73,7 @@ h1 {
 
 .banner-intro .banner-inner {
     background-color: rgba(0,0,0,0.4);
+
 }
 
 h6 {
@@ -91,3 +83,66 @@ h6 {
     font-weight:bold;
     
 }
+
+.request {
+    cursor: pointer;
+}
+
+.cta {
+    background-color: #323a45;
+}
+
+.cta .icon-envelope {
+
+    color: #3498db;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: block;
+
+}
+
+.navbar-right li.button-nav a {
+    border-radius: 3px;
+     font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    .header-v1 .navbar-brand {
+        position: static; 
+        left: 0; 
+        margin-left: none;
+        top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-intro .banner-buttons .btn-white {
+    display: block;
+    }
+    .btn-white {
+        background-color: #3498db;
+        color: white;
+        width: 70%;
+    }
+    .banner-intro .banner-buttons a {
+        margin: 5px auto;
+    }
+
+    .btn-skin {
+        display:none;
+    }
+
+    .banner-intro h1 {
+        font-size: 3.5em;
+        line-height: 1em;
+    }
+
+
+}
+
+
