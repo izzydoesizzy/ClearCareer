@@ -108,6 +108,14 @@ h6 {
 
 }
 
+.icon-bar {
+    background-color: white;
+}
+
+.modal-dialog {
+    padding: 5%;
+    padding-top: 10%
+}
 
 
 
