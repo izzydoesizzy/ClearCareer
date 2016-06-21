@@ -38,6 +38,18 @@ $(document).ready(function () {
             }
         });
     });
+
+
+// MixItUp Initiate (Resource Filters)
+
+    $(function(){
+
+        // Instantiate MixItUp:
+
+        $('#pricing').mixItUp();
+
+    });
+
 //Auto Close Responsive Navbar on Click
     function close_toggle() {
         if ($(window).width() <= 768) {
