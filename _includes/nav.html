@@ -1,33 +1,32 @@
-<header class="navbar navbar-default header-v2 navbar-fixed-top">
+<!-- Static navbar -->
+        <nav class="navbar header-v1 header-transparent navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header scroll-to">
+                    <a class="navbar-brand" href="#">ClearCareer</a>
+                    
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">ClearCareer</a>
+
+                    
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
 
-                    <ul class="nav scroll-to navbar-nav navbar-right"> 
-                        {% if page.url == '/home.html' %}
-                            <li class="active"><a href="/">Home</a></li>
-                        {% else %}
-                            <li><a href="/">Home</a></li>
-                        {% endif %}
-                        {% if page.url == '/builder.html' %}
-                            <li class="active"><a href="/builder">Resume Builder</a></li> 
-                        {% else %}
-                            <li><a href="/builder">Resume Builder</a></li>
-                        {% endif %}
-                    </ul> 
-                    <!-- <ul class="nav navbar-nav navbar-right socials">
-                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                    </ul>  -->
+                    <ul class="nav scroll-to navbar-nav"> 
+                        <li><a href="#features">Why Join</a></li> 
+                        <li><a href="#features">Resources</a></li> 
+                        <!-- <li><a href="#community">Community</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li> -->
+                        <li><a href="http://blog.clearcareer.ca" target="_blank">Blog</a></li>
+
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right scroll-to"> 
+                        <li class="button-nav"><a href="https://ipiyale.typeform.com/to/Nz6zcM" target="_blank" id="requestinvite">Request Invite</a></li>
+                    </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
-        </header><!--navigation end here-->
+        </nav><!--navigation end here-->

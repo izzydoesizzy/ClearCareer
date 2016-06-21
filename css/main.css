@@ -16,6 +16,21 @@ h1 {
   padding-top: 0px;
 }
 
+.resources-page {
+    background-color: rgba(0,0,0,0.8);    
+}    
+
+.resources-body {
+    margin-top: 5%;
+}
+
+.img-small {
+    width:50%;
+    height:auto;
+    margin:0 auto;
+
+}
+
 /* Transparent Navbar
 =============================== */
 .header-v2 {
@@ -149,6 +164,10 @@ h6 {
         font-size: 3.5em;
         line-height: 1em;
     }
+
+    .resources-body {
+    margin-top: 25%;
+}
 
 
 }
