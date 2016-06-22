@@ -31,6 +31,25 @@ h1 {
 
 }
 
+.controls {
+    padding: 20px;
+}
+
+.price-box p {
+    height: 80px;
+}
+
+
+.btn-primary {
+    background-color: #3498db;
+}
+
+.cta .icon-chat {
+    color: #3498db;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
 
 /* MixItUp Essential Style 
 =============================== */

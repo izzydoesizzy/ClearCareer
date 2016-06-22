@@ -1,6 +1,23 @@
 ---
 layout: resources
 title: Resources
+resources:
+  - name: Treehouse
+    img: https://pbs.twimg.com/profile_images/428279627933417472/thV1pch1_400x400.png
+    link: http://treehouse.7eer.net/c/268744/228915/3944
+    type: learning
+    description: 'Learn from over 1000 videos created by expert teachers on web design, coding, business, and much more.'
+  - name: Skillshare
+    img: https://pbs.twimg.com/profile_images/1474879083/twitter.png
+    link: http://treehouse.7eer.net/c/268744/228915/3944
+    type: learning
+    description: 'Skillshare is a global learning community for creators. Anyone can take thousands of online classes or even teach a class themselves.'
+  - name: Hubspot Sales
+    img: https://pbs.twimg.com/profile_images/728009572271718400/FDL8pGtZ.jpg
+    link: https://app.getsidekick.com/invite/accept?utm_campaign=viral&utm_content=4783926880501760&utm_medium=share_link&utm_source=signals&no_redirect_after_install=true
+    type: tools
+    description: 'Know who opens your emails, when, how many times, and from where so you can communicate the smart way.'
+  
 ---
 
         
@@ -14,53 +31,46 @@ title: Resources
                         <i class="icon-pricetags"></i>
                         <h2>Resources</h2>
                         <p>Here are a list of awesome resources to members of the ClearCareer community. These are open to anyone, so feel free to try, use and share them with your friends.</p> 
+
+                       
+                        <p style="font-size:small; font-style: italic">Affiliate Disclosure: If you purchase products or services from the links below, ClearCareer will in some cases receive a referral commission (at no extra cost to you). This helps keep ClearCareer afloat! Thank you!</p>
                     </div>
+                  
+
+
                 </div> <!--center title row end-->
+                
 
-                <button class="filter" data-filter="all">Show All</button>
-                <button class="filter" data-filter=".education">Education</button>
-                <button class="filter" data-filter=".business">Business</button>
+                <div class ="controls text-center">
+                    <button class="btn btn-primary filter" data-filter="all">Show All</button>
+                    <button class="btn btn-primary filter" data-filter=".education">Learning</button>
+                    <button class="btn btn-primary filter" data-filter=".tools">Tools</button>
+                </div>
+
+                
             
-                <div class="row">
-                    <div class="col-sm-4 mix business">
-                        <div class="price-box text-center wow  fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            <img src="https://pbs.twimg.com/profile_images/428279627933417472/thV1pch1_400x400.png" class="img-responsive img-small">
-                            <h3>Treehouse</h3>
-                            <div class="price">
-                            </div>
-                            <p>
-                                Learn from over 1000 videos created by expert teachers on web design, coding, business, and much more.
-                            </p>
-                            <a href="http://treehouse.7eer.net/c/268744/228915/3944" class="btn btn-lg btn-default btn-radius">Learn More</a>
-                        </div><!--price box end-->
-                    </div><!--price col end-->
-                    <div class="col-sm-4 mix education">
-                        <div class="price-box text-center wow  fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            <img src="https://pbs.twimg.com/profile_images/428279627933417472/thV1pch1_400x400.png" class="img-responsive img-small">
-                            <h3>Brains</h3>
-                            <div class="price">
-                            </div>
-                            <p>
-                                Learn from over 1000 videos created by expert teachers on web design, coding, business, and much more.
-                            </p>
-                            <a href="http://treehouse.7eer.net/c/268744/228915/3944" class="btn btn-lg btn-default btn-radius">Learn More</a>
-                        </div><!--price box end-->
-                    </div><!--price col end-->
-                    <div class="col-sm-4 mix business">
-                        <div class="price-box text-center wow  fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            <img src="https://pbs.twimg.com/profile_images/428279627933417472/thV1pch1_400x400.png" class="img-responsive img-small">
-                            <h3>Zombies</h3>
-                            <div class="price">
-                            </div>
-                            <p>
-                                Learn from over 1000 videos created by expert teachers on web design, coding, business, and much more.
-                            </p>
-                            <a href="http://treehouse.7eer.net/c/268744/228915/3944" class="btn btn-lg btn-default btn-radius">Learn More</a>
-                        </div><!--price box end-->
-                    </div><!--price col end-->
-                </div><!--price row end-->
+                <div class="row" id="#resources">
 
+
+                    {% for resource in page.resources %}
+                    <div class="col-sm-4 mix {{ resource.type }}">
+                        <div class="price-box text-center wow  fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                            <img src="{{ resource.img }}" class="img-responsive img-small">
+                            <h3>{{ resource.name }}</h3>
+                            <div class="price">
+                            </div>
+                            <p>
+                                {{ resource.description }}    
+                            </p>
+                            <a href="{{ resource.link }}" class="btn btn-lg btn-default btn-radius">Learn More</a>
+                        </div><!--price box end-->
+                    </div><!--price col end-->
+                    {% endfor %}
+
+                </div><!--price row end-->
+                
             </div> <!--container end-->
+            
         </section>
         <!--section features end-->
 
