@@ -195,7 +195,45 @@ h6 {
     margin-top: 25%;
 }
 
-
+.contact-home-form {
+    background: #f9f9f9;
+    color: #4d4d4d;
 }
+
+#mc_embed_signup{ 
+/*    background:#fff; */
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+    background: #f9f9f9;
+}
+
+.contact-home-text {
+    color: #fff;
+}
+
+.contact-home-form {
+    color: #4d4d4d;
+}
+
+.contact-home-text h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.contact-home-text h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.contact-home-text p {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+
 
 
