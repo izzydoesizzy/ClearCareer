@@ -44,31 +44,41 @@
         <link href="css/main.css" rel="stylesheet">
 
         <!-- Facebook Pixel Code -->
+        <!-- Facebook Pixel Code -->
         <script>
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-        document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-        fbq('init', '309644116033179');
-        fbq('track', "PageView");
-        // Requested Invite
-        // Track when people come from Facebook ads and convert to signup on Typeform
-        fbq('track', 'RequestedInvite');
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '309644116033179'); 
+        fbq('track', 'PageView');
         </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=309644116033179&ev=PageView&noscript=1"
-        /></noscript>
+        <noscript>
+         <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=309644116033179&ev=PageView
+        &noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+        
+
+        <!-- The below method uses jQuery, but that is not required -->
+      
+        <!-- Add event to the button's click handler -->
+        <script type="text/javascript">
+        $( '#mailchimpbutton' ).click(function() {
+        fbq('track', 'Lead', {
+        content_ids: ['1234'],
+        });
+        });
+        </script>
+
+        <!-- DO NOT MODIFY -->
         <!-- End Facebook Pixel Code -->
 
-        <script type="text/javascript">
-          $('#requestinvite').click(function() {
-            fbq('track', 'RequestedInvite', {
-              content_name: 'Requested Invite', 
-            });  
-          });
-        </script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
